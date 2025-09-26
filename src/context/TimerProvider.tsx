@@ -6,7 +6,7 @@ type Props = {
 
 const TimerProvider = (props: Props) => {
   return (
-    <div>TimerProvider</div>
+    <div>{props.children}</div>
   )
 }
 

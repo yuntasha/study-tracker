@@ -6,7 +6,7 @@ type Props = {
 
 const TodoProvider = (props: Props) => {
   return (
-    <div>TodoProvider</div>
+    <div>{props.children}</div>
   )
 }
 

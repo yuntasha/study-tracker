@@ -1,6 +1,14 @@
+import Header from "./components/Header";
+import styles from "./App.module.css";
+import { BrowserRouter } from "react-router-dom";
+
 const App = () => {
   return (
-    <div>Study Tracker</div>
+    <BrowserRouter>
+      <div className={styles.container}>
+        <Header />
+      </div>
+    </BrowserRouter>
   )
 }
 
