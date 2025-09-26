@@ -2,7 +2,7 @@ import Header from "./components/Header";
 import styles from "./App.module.css";
 import { BrowserRouter } from "react-router-dom";
 
-const App = () => {
+export default function App() {
   return (
     <BrowserRouter>
       <div className={styles.container}>
@@ -11,5 +11,3 @@ const App = () => {
     </BrowserRouter>
   )
 }
-
-export default App;
