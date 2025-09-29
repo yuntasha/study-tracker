@@ -1,0 +1,19 @@
+.currentTask {
+    background: #f8f9ff;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 24px;
+    border-left: 4px solid #4facfe;
+}
+
+.taskTitle {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+.taskSubtitle {
+    font-size: 14px;
+    color: #666;
+}
