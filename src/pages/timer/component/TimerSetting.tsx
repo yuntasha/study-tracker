@@ -1,19 +1,16 @@
-import React from 'react'
 import styles from "./TimerSetting.module.css"
 
-type Props = {}
-
-const TimerSetting = (props: Props) => {
+const TimerSetting = () => {
   return (
     <div className={styles.timerSettings}>
-        <div className={styles.settingGroup}>
-            <label className={styles.settingLabel}>공부 시간 (분)</label>
-            <input type="number" className={styles.settingInput} value="25" min="1" max="120" />
-        </div>
-        <div className={styles.settingGroup}>
-            <label className={styles.settingLabel}>휴식 시간 (분)</label>
-            <input type="number" className={styles.settingInput} value="5" min="1" max="30" />
-        </div>
+        <label className={styles.settingGroup} htmlFor="study-time-input">
+            <span className={styles.settingLabel}>공부 시간 (분)</span>
+            <input id="study-time-input" type="number" className={styles.settingInput} value="25" min="1" max="120" />
+        </label>
+        <label className={styles.settingGroup} htmlFor="rest-time-input">
+            <span className={styles.settingLabel}>휴식 시간 (분)</span>
+            <input id="rest-time-input" type="number" className={styles.settingInput} value="5" min="1" max="30" />
+        </label>
     </div>
   )
 }

@@ -1,9 +1,6 @@
-import React from 'react'
 import styles from "./TimerDisplay.module.css"
 
-type Props = {}
-
-const TimerDisplay = (props: Props) => {
+const TimerDisplay = () => {
   return (
     <div className={styles.timerDisplay}>25:00</div>
   )

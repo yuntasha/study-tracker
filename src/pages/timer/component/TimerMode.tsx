@@ -1,9 +1,7 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import styles from "./TimerMode.module.css"
 
-type Props = {}
-
-const TimerMode = (props: Props) => {
+const TimerMode = () => {
     const [isStudy, setIsStudy] = useState(true);
     return (
         <div className={styles.timerMode}>

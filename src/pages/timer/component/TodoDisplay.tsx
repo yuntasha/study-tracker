@@ -1,9 +1,6 @@
-import React from 'react'
 import styles from "./TodoDisplay.module.css"
 
-type Props = {}
-
-const TodoDisplay = (props: Props) => {
+const TodoDisplay = () => {
   return (
     <div className={styles.currentTask}>
         <div className={styles.taskTitle}>JavaScript 기초 학습</div>
